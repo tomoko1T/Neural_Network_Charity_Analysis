@@ -2,7 +2,7 @@
 
 ## Overview 
 
-The purpose of this analysis is to predict wether applicants will be successful if funded by Alphabet Soup by designing the deep neural network model.  The type of classification for this research is a binary classification.  The data format is CSV with more than 34,000 organizations that have received funding from Alphabet Soup over the years.  The dataset contains the metadata metadata about each organization, such as the following:
+The purpose of this analysis is to predict wether applicants will be successful if funded by Alphabet Soup by designing the deep neural network model.  The type of prediction for this research is a binary classification.  The data format is CSV with more than 34,000 organizations that have received funding from Alphabet Soup over the years.  The dataset contains the metadata about each organization, such as the following:
 
 - EIN and NAME—Identification columns
 
@@ -62,9 +62,9 @@ The purpose of this analysis is to predict wether applicants will be successful 
 
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-The number of neurons and layers show in the table below.   ReLu Activation was chosen for the hidden layers because it is a suitable activation function for multilayer perceptron.  For output layer, Sigmoid activation function was selected because this analysis was conducted to predict binary classification with one node.
+    The number of neurons and layers show in the table below.   ReLu Activation was chosen for the hidden layers because it is a suitable activation function for multilayer perceptron.  For output layer, Sigmoid activation function was selected because this analysis was conducted to predict binary classification with one node.
 
-![This is an image]() 
+![This is an image](https://github.com/tomoko1T/Neural_Network_Charity_Analysis/blob/main/images/training.png) 
 
 - Were you able to achieve the target model performance?
 
@@ -86,11 +86,11 @@ The number of neurons and layers show in the table below.   ReLu Activation was 
 
 ## Summary: 
 
-The target predictive accuracy on both the original and optimization did not reach higher than 75%.  The results of each modeul is as follows:
+The accuracy on both, the original and optimization model did not reach higher than 75%.  The results of each modeul is as follows:
 
 ### Original deep learning model
 
-![This is an image]() 
+![This is an image](https://github.com/tomoko1T/Neural_Network_Charity_Analysis/blob/main/images/Evalution_original.png) 
 
 Accuracy: 72%
 
@@ -100,7 +100,7 @@ The code is found [GitHub Pages](https://github.com/tomoko1T/Neural_Network_Char
 
 ### Optimization deep learning model 
 
-![This is an image]() 
+![This is an image](https://github.com/tomoko1T/Neural_Network_Charity_Analysis/blob/main/images/Evaluation_opt.png) 
 
 Accuracy: 72 %
 
